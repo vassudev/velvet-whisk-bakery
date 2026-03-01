@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reviews & Contact — The Velvet Whisk</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,700&family=Cormorant+Garamond:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="page-header">
+    <a href="index.html" class="back-home">← The Velvet Whisk</a>
+    <a href="menu.html" class="contact-link on-dark" style="position:absolute;top:1rem;right:2rem;">Menu</a>
+    <h1>Reviews & Customer Support</h1>
+    <p>We’d love to hear from you</p>
+  </header>
+
+  <div class="review-hero-image">
+    <img
+      src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1000&q=80"
+      alt="Fresh pastries on display at The Velvet Whisk"
+      class="review-hero-img"
+    />
+  </div>
+
+  <div class="review-container">
+    <section class="contact-card">
+      <h2>Contact Us</h2>
+      <p><strong>Address:</strong> 12, Kowdiar Road, Kowdiar, Trivandrum — 695003</p>
+      <p><strong>Phone:</strong> <a href="tel:+914712345678">+91 471 234 5678</a></p>
+      <p><strong>Email:</strong> <a href="mailto:hello@thevelvetwhisk.com">hello@thevelvetwhisk.com</a></p>
+      <p><strong>Hours:</strong> Mon–Sun 8:00 AM – 9:00 PM</p>
+    </section>
+
+    <section class="contact-card">
+      <h2>Customer Support & Feedback</h2>
+      <p>Have a question, order request, or feedback? Fill out the form below and we’ll get back to you soon.</p>
+      <form class="review-form" action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required placeholder="Your name" />
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="your@email.com" />
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="Order / Feedback / Support" />
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required placeholder="Your message or review..."></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <h1>What Our Customers Say</h1>
+    <div class="reviews-list">
+      <div class="review-box">
+        <div class="author">Priya M.</div>
+        <div class="stars">★★★★★</div>
+        <p>Best red velvet in Trivandrum. The slice was moist and the cream cheese frosting was perfect. Will definitely order the whole cake next time!</p>
+      </div>
+      <div class="review-box">
+        <div class="author">Arun K.</div>
+        <div class="stars">★★★★★</div>
+        <p>Lovely ambience and even better pastries. The croissants are flaky and the coffee pairs well. Kowdiar’s hidden gem.</p>
+      </div>
+      <div class="review-box">
+        <div class="author">Sarah L.</div>
+        <div class="stars">★★★★☆</div>
+        <p>Ordered a birthday cake for my daughter—delivered on time and everyone loved it. Customer support was very helpful with customization.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
